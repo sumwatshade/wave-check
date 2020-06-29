@@ -1,3 +1,15 @@
+# v0.2.0 (Mon Jun 29 2020)
+
+#### 🚀 Enhancement
+
+- feat: surfline automation [#1](https://github.com/lshadler/wave-check/pull/1) ([@lshadler](https://github.com/lshadler))
+
+#### Authors: 1
+
+- Lucas Shadler ([@lshadler](https://github.com/lshadler))
+
+---
+
 # v0.1.0 (Mon Jun 29 2020)
 
 #### 🚀 Enhancement
