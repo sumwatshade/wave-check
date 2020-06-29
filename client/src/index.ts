@@ -4,6 +4,7 @@ import * as puppeteer from 'puppeteer';
     const browser = await puppeteer.launch({
         product: 'chrome',
         headless: false,
+        args: ['--no-sandbox'],
     });
     const page = await browser.newPage();
     await page.goto('https://google.com');

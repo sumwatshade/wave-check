@@ -1,0 +1,12 @@
+{
+  "name": "wave-check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lshadler/wave-check.git",
+  "author": "wtait1, lshadler",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

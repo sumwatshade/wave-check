@@ -1,0 +1,10 @@
+{
+  "name": "@wave-check/server",
+  "version": "1.0.0",
+  "description": "server component of wave-check",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sh scripts/deploy.sh"
+  }
+}
