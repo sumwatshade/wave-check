@@ -1,6 +1,6 @@
 {
   "name": "wave-check",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/lshadler/wave-check.git",
   "author": "wtait1, lshadler",
@@ -20,6 +20,7 @@
     "install": "lerna bootstrap",
     "clean": "rm -rf node_modules",
     "build": "lerna run build --stream --parallel",
-    "start": "lerna run start --stream --parallel"
+    "start": "lerna run start --stream --parallel",
+    "test": "lerna run start --stream --parallel"
   }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@wave-check/client",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Look for waves",
     "main": "src/index.js",
     "repository": "https://github.com/lshadler/wave-check.git",
