@@ -7,6 +7,10 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "@auto-it/conventional-commits": "^9.40.5",
+    "@auto-it/git-tag": "^9.40.5",
+    "@auto-it/released": "^9.40.5",
+    "auto": "^9.40.5",
     "lerna": "^3.22.1"
   },
   "workspaces": [

@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "git-tag",
+    "conventional-commits",
+    "released",
+  ],
+  "baseBranch": "master",
+  "prereleaseBranches": ["next", "alpha", "beta"],
+  "name": "lshadler"
+}
