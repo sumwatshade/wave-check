@@ -1,6 +1,9 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":automergePatch",
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks"
   ],
   "packageRules": [
     {
