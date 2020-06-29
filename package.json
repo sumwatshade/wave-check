@@ -28,6 +28,7 @@
     "build": "lerna run build --stream --parallel",
     "start": "lerna run start --stream --parallel",
     "test": "lerna run test --stream --parallel",
-    "lint": "eslint --fix --ext .ts --ext .js packages/**/src"
+    "lint": "eslint --fix --ext .ts --ext .js packages/**/src",
+    "release": "auto shipit"
   }
 }

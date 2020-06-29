@@ -6,5 +6,6 @@
   ],
   "baseBranch": "master",
   "prereleaseBranches": ["next", "alpha", "beta"],
-  "name": "lshadler"
+  "name": "lshadler",
+  "email": "lshadler13@gmail.com"
 }
