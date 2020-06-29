@@ -1,0 +1,10 @@
+{
+  "name": "wave-check",
+  "version": "1.0.0",
+  "description": "Look for waves",
+  "main": "index.js",
+  "repository": "https://github.com/lshadler/wave-check.git",
+  "author": "lshadler",
+  "license": "MIT",
+  "private": false
+}
