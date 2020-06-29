@@ -1,3 +1,5 @@
 #!/bin/bash
-echo "We got here!"
-node ../../client/lib/index.js
+
+### BEGIN RPI interactions ###
+### END RPI interactions ###
+node ../../node_modules/@wave-check/client/lib/index.js

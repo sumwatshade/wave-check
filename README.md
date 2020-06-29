@@ -32,4 +32,8 @@ export SURFLINE_PASSWORD=xxxxx
 yarn start --scope=@wave-check/client
 ```
 
-- **Server is WIP**
+- Start the server
+
+```bash
+yarn deploy
+```

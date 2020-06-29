@@ -2,7 +2,7 @@
     "name": "@wave-check/client",
     "version": "1.0.0",
     "description": "Look for waves",
-    "main": "src/index.js",
+    "main": "lib/index.js",
     "repository": "https://github.com/lshadler/wave-check.git",
     "author": "lshadler",
     "license": "MIT",

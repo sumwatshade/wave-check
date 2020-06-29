@@ -33,6 +33,7 @@
     "install": "lerna bootstrap",
     "clean": "rm -rf node_modules",
     "build": "lerna run build --stream --parallel",
+    "deploy": "lerna run deploy --scope=@wave-check/server --stream --parallel",
     "start": "lerna run start --stream --parallel",
     "test": "lerna run test --stream --parallel",
     "lint": "eslint --fix --ext .ts --ext .js packages/**/src",
