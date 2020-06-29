@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+    },
+    "include": [
+        "src",
+        "node_modules/@types/puppeteer/index.d.ts"
+    ]
+}
