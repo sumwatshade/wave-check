@@ -5,7 +5,7 @@ import { Credentials } from './types';
  */
 export const getCredentials = (): Credentials => {
     return {
-        username: process.env.SURFLINE_USERNAME,
-        password: process.env.SURFLINE_PASSWORD,
+        username: process.env.SURFLINE_USERNAME || 'test',
+        password: process.env.SURFLINE_PASSWORD || 'user',
     };
 };
