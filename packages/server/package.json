@@ -5,6 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "sh scripts/deploy.sh"
+    "deploy": "node index.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.6"
   }
 }

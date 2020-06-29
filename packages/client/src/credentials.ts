@@ -9,3 +9,5 @@ export const getCredentials = (): Credentials => {
         password: process.env.SURFLINE_PASSWORD || 'user',
     };
 };
+
+export default getCredentials;
