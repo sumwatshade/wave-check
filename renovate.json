@@ -1,5 +1,11 @@
 {
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": ["auto", "@auto-it"],
+      "groupName": "auto-monorepo"
+    }
   ]
 }
