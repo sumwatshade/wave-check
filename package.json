@@ -21,6 +21,7 @@
     "clean": "rm -rf node_modules",
     "build": "lerna run build --stream --parallel",
     "start": "lerna run start --stream --parallel",
-    "test": "lerna run start --stream --parallel"
+    "test": "lerna run test --stream --parallel",
+    "lint": "lerna run lint --stream --parallel --"
   }
 }
