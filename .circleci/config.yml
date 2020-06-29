@@ -105,6 +105,5 @@ workflows:
             - build
       - release:
           requires:
-            - build
             - test-unit
             - lint
