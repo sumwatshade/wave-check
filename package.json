@@ -11,5 +11,11 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "install": "lerna bootstrap",
+    "clean": "rm -rf node_modules",
+    "build": "lerna run build --stream --parallel",
+    "start": "lerna run start --stream --parallel"
+  }
 }
