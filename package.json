@@ -10,8 +10,14 @@
     "@auto-it/conventional-commits": "^9.40.5",
     "@auto-it/git-tag": "^9.40.5",
     "@auto-it/released": "^9.40.5",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "auto": "^9.40.5",
-    "lerna": "^3.22.1"
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5"
   },
   "workspaces": [
     "packages/*"
@@ -22,6 +28,6 @@
     "build": "lerna run build --stream --parallel",
     "start": "lerna run start --stream --parallel",
     "test": "lerna run test --stream --parallel",
-    "lint": "lerna run lint --stream --parallel --"
+    "lint": "eslint --fix --ext .ts --ext .js packages/**/src"
   }
 }
