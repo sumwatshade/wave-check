@@ -1,3 +1,24 @@
+# v0.3.0 (Mon Jun 29 2020)
+
+#### 🚀 Enhancement
+
+- feat(server): simple http client [#6](https://github.com/lshadler/wave-check/pull/6) ([@lshadler](https://github.com/lshadler))
+
+#### 🐛 Bug Fix
+
+- chore: automerge deps [#5](https://github.com/lshadler/wave-check/pull/5) ([@lshadler](https://github.com/lshadler))
+- chore: group auto deps [#4](https://github.com/lshadler/wave-check/pull/4) ([@lshadler](https://github.com/lshadler))
+- chore(deps): pin dependencies [#3](https://github.com/lshadler/wave-check/pull/3) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- chore: configure renovate [#2](https://github.com/lshadler/wave-check/pull/2) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Lucas Shadler ([@lshadler](https://github.com/lshadler))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v0.2.0 (Mon Jun 29 2020)
 
 #### 🚀 Enhancement
