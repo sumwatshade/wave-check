@@ -11,12 +11,13 @@ stand up a basic server to check waves
 PUPPETEER_PRODUCT=firefox yarn # or yarn install
 ```
 
+- install [shell2http](https://github.com/msoap/shell2http#install)
+
 - build the project
 
 ```bash
 yarn build
 ```
-
 
 - supply surfline credentials
 
@@ -31,4 +32,8 @@ export SURFLINE_PASSWORD=xxxxx
 yarn start --scope=@wave-check/client
 ```
 
-- **Server is WIP**
+- Start the server
+
+```bash
+yarn deploy
+```

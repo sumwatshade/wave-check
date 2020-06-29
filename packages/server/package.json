@@ -5,6 +5,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "sh scripts/deploy.sh"
+    "deploy": "node index.js"
+  },
+  "dependencies": {
+    "@wave-check/client": "^1.0.0",
+    "glob": "^7.1.6"
   }
 }
