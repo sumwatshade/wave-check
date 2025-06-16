@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@wave-check/client": "^1.0.0",
-    "glob": "^7.1.6"
+    "glob": "^11.0.3"
   }
 }
