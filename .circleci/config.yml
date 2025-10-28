@@ -30,7 +30,7 @@ aliases:
 jobs:
   build:
     docker:
-      - image: circleci/node:dubnium-browsers
+      - image: circleci/node:10.24.1-browsers
     working_directory: ~/project
     steps:
       - checkout
@@ -44,7 +44,7 @@ jobs:
       - run: *build
   lint:
     docker:
-      - image: circleci/node:dubnium-browsers
+      - image: circleci/node:10.24.1-browsers
     working_directory: ~/project
     steps:
       - checkout
@@ -57,7 +57,7 @@ jobs:
           command: yarn lint
   test-unit:
     docker:
-      - image: circleci/node:dubnium-browsers
+      - image: circleci/node:10.24.1-browsers
     working_directory: ~/project
     steps:
       - checkout
@@ -77,7 +77,7 @@ jobs:
           path: coverage/junit/
   release:
     docker:
-      - image: circleci/node:dubnium-browsers
+      - image: circleci/node:10.24.1-browsers
     working_directory: ~/project
     steps:
       - checkout
